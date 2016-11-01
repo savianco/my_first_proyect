@@ -1,0 +1,209 @@
+body {
+	background-color: #ffff80;
+    text-align: center;
+    margin: auto;
+}
+
+header { 
+ 	background-color: orange;
+    border-radius: 15px;
+    border: 5px solid white;
+    color: #ffffff;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+header:hover {
+    background-color: white;
+}
+
+nav {
+    background-color: orange;
+    color: #ffffff;
+    padding: 2px;
+    border-radius: 15px;
+    border: 5px solid white;
+    margin-top: -5px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#navegador ul {
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li {
+   display: inline;
+   text-align: center;
+   margin: 0px 30px 0px 0px;
+}
+
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 2px solid #ccc;
+   border-radius: 5px;
+   text-decoration: none;
+   box-shadow: 8px 4px 4px #888888;
+}
+
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+a:link {
+    color: #008080;
+}
+
+a:visited {
+    color: #cccccc;
+}
+
+a:hover {
+    color: #999999;
+}
+
+
+footer {
+    background-color: #404040;
+    color: silver; 
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border-top: 5px solid white;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    background-color: navy;
+    padding: 5px 5px;
+    margin: 10px;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+table, table th {
+    position: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: lime;
+    color: #000000;
+    font-family: "Georgia", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 3px solid black;
+    table-layout: auto;
+}
+
+table td {
+    position: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: yellow;
+    color: #000000;
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 5px;
+    border: 2px solid black;
+    table-layout: auto;
+}
+
+
+
+/* propiedades de la pestaña volver a inicio */
+.inicio {
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    border: 5px solid white;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* para alinear textos + logos en footer */
+.alineadoTextoImagenCentro {
+    vertical-align: middle;
+}
+
+.articleContainer {
+    box-shadow: 10px 5px 5px #888888;
+    background-color: #ffffff;
+    border-radius: 15px;    
+    height: 380px;
+    text-align: justify;
+    margin: 25px 20px 15px 20px;
+}
+
+article p {
+    font-family: verdana, sans-serif;
+    font-size: 18px;
+    margin: 13px;
+}
+
+article h1 {
+    font-size: 40px;
+    margin-top: -15px;
+    margin-left: 12px;
+    padding-top: 5px;
+}
+
+article h3 {
+    margin: 0px 12px;
+}
+.postAutor {
+    font-size: 20px;
+}
+
+.imagenNosotros {
+    float: left;
+    width: 450px;
+    height: 260px;
+    border-radius: 10px;
+    margin: 15px 20px 10px 15px;
+}
+
+.tituloPelicula {
+    list-style-position: inside;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+.nombreComida {
+    list-style-position: inside;
+    font-size: 20px;
+    margin: auto;
+}
+
+
+img.horizontal {
+    width: 400px;
+    height: 330px;
+    margin: 8px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #888888;
+}
+
+img.vertical {
+    width: 280px;
+    height: 440px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #888888;
+}
